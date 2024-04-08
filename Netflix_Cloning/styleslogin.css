@@ -1,0 +1,101 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Arial', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	background: #000;
+	color: #999;
+    z-index: 0;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h2{
+    padding-right: 400px;
+    padding-bottom: 20px;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+   
+	text-align: center;
+    background: #333;
+    z-index: 1;
+    
+
+}
+
+.logo {
+
+	margin-bottom: 80px;
+    height: 20px;
+    width: 50px;
+}
+
+.form {
+	margin-bottom: 20px;
+}
+
+.form-control {
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.form-control label {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background: #fff;
+	padding: 0 5px;
+	transition: all 0.3s ease;
+}
+
+.form-control input {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.form-control input:focus + label,
+.form-control input:valid + label {
+	top: -5px;
+	left: 10px;
+	font-size: 12px;
+	background: #333;
+	color: #fff;
+}
+
+.remember-me {
+	margin-bottom: 10px;
+}
+
+.btn-primary {
+	padding: 10px 20px;
+	background: #e50914;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.btn-primary:hover {
+	background: #f41623;
+}
+
+.form-help {
+	margin-bottom: 10px;
+}
+
+.form-help a {
+	color: #fff;
+	text-decoration: underline;
+}
